@@ -7,66 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		__src_cc_ref_Source/Agree.swift /* Agree.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/Agree.swift /* Agree.swift */; };
-		__src_cc_ref_Source/AgreeSettings.swift /* AgreeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/AgreeSettings.swift /* AgreeSettings.swift */; };
-		__src_cc_ref_Source/ArgConvertible.swift /* ArgConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/ArgConvertible.swift /* ArgConvertible.swift */; };
-		__src_cc_ref_Source/Args.swift /* Args.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/Args.swift /* Args.swift */; };
-		__src_cc_ref_Source/ArgsParser.swift /* ArgsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/ArgsParser.swift /* ArgsParser.swift */; };
-		__src_cc_ref_Source/Argument.swift /* Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/Argument.swift /* Argument.swift */; };
-		__src_cc_ref_Source/Ask.swift /* Ask.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/Ask.swift /* Ask.swift */; };
-		__src_cc_ref_Source/AskSettings.swift /* AskSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/AskSettings.swift /* AskSettings.swift */; };
-		__src_cc_ref_Source/AskerValidator.swift /* AskerValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/AskerValidator.swift /* AskerValidator.swift */; };
-		__src_cc_ref_Source/Choose.swift /* Choose.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/Choose.swift /* Choose.swift */; };
-		__src_cc_ref_Source/ChooseSettings.swift /* ChooseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/ChooseSettings.swift /* ChooseSettings.swift */; };
-		__src_cc_ref_Source/Colorizer.swift /* Colorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/Colorizer.swift /* Colorizer.swift */; };
-		__src_cc_ref_Source/CommandExecutor.swift /* CommandExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/CommandExecutor.swift /* CommandExecutor.swift */; };
-		__src_cc_ref_Source/Env.swift /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/Env.swift /* Env.swift */; };
-		__src_cc_ref_Source/Glob.swift /* Glob.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/Glob.swift /* Glob.swift */; };
-		__src_cc_ref_Source/ProcessInfo.swift /* ProcessInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/ProcessInfo.swift /* ProcessInfo.swift */; };
-		__src_cc_ref_Source/PromptPrinter.swift /* PromptPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/PromptPrinter.swift /* PromptPrinter.swift */; };
-		__src_cc_ref_Source/PromptReader.swift /* PromptReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/PromptReader.swift /* PromptReader.swift */; };
-		__src_cc_ref_Source/PromptSettings.swift /* PromptSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/PromptSettings.swift /* PromptSettings.swift */; };
-		__src_cc_ref_Source/RunResults.swift /* RunResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/RunResults.swift /* RunResults.swift */; };
-		__src_cc_ref_Source/Runner.swift /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/Runner.swift /* Runner.swift */; };
-		__src_cc_ref_Source/RunnerSettings.swift /* RunnerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/RunnerSettings.swift /* RunnerSettings.swift */; };
-		__src_cc_ref_Source/ShortHandRunner.swift /* ShortHandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/ShortHandRunner.swift /* ShortHandRunner.swift */; };
-		__src_cc_ref_Source/StringBackgroundColorizer.swift /* StringBackgroundColorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/StringBackgroundColorizer.swift /* StringBackgroundColorizer.swift */; };
-		__src_cc_ref_Source/StringForegroundColorizer.swift /* StringForegroundColorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/StringForegroundColorizer.swift /* StringForegroundColorizer.swift */; };
-		__src_cc_ref_Source/StringStyle.swift /* StringStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/StringStyle.swift /* StringStyle.swift */; };
-		__src_cc_ref_Source/StringStyleColorizer.swift /* StringStyleColorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/StringStyleColorizer.swift /* StringStyleColorizer.swift */; };
-		__src_cc_ref_Source/TaskPipe.swift /* TaskPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Source/TaskPipe.swift /* TaskPipe.swift */; };
+		67D3656F2B176E5300108895 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D3656E2B176E5300108895 /* Package.swift */; };
+		67D3658C2B176E6600108895 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365702B176E6600108895 /* Env.swift */; };
+		67D3658D2B176E6600108895 /* Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365712B176E6600108895 /* Argument.swift */; };
+		67D3658E2B176E6600108895 /* StringBackgroundColorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365722B176E6600108895 /* StringBackgroundColorizer.swift */; };
+		67D3658F2B176E6600108895 /* ArgsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365732B176E6600108895 /* ArgsParser.swift */; };
+		67D365902B176E6600108895 /* StringStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365742B176E6600108895 /* StringStyle.swift */; };
+		67D365912B176E6600108895 /* ChooseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365752B176E6600108895 /* ChooseSettings.swift */; };
+		67D365922B176E6600108895 /* AskSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365762B176E6600108895 /* AskSettings.swift */; };
+		67D365932B176E6600108895 /* ProcessInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365772B176E6600108895 /* ProcessInfo.swift */; };
+		67D365942B176E6600108895 /* Ask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365782B176E6600108895 /* Ask.swift */; };
+		67D365952B176E6600108895 /* PromptPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365792B176E6600108895 /* PromptPrinter.swift */; };
+		67D365962B176E6600108895 /* AgreeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D3657A2B176E6600108895 /* AgreeSettings.swift */; };
+		67D365972B176E6600108895 /* AskerValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D3657B2B176E6600108895 /* AskerValidator.swift */; };
+		67D365982B176E6600108895 /* StringStyleColorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D3657C2B176E6600108895 /* StringStyleColorizer.swift */; };
+		67D365992B176E6600108895 /* Colorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D3657D2B176E6600108895 /* Colorizer.swift */; };
+		67D3659A2B176E6600108895 /* Agree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D3657E2B176E6600108895 /* Agree.swift */; };
+		67D3659B2B176E6600108895 /* CommandExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D3657F2B176E6600108895 /* CommandExecutor.swift */; };
+		67D3659C2B176E6600108895 /* RunnerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365802B176E6600108895 /* RunnerSettings.swift */; };
+		67D3659D2B176E6600108895 /* RunResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365812B176E6600108895 /* RunResults.swift */; };
+		67D3659E2B176E6600108895 /* StringForegroundColorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365822B176E6600108895 /* StringForegroundColorizer.swift */; };
+		67D3659F2B176E6600108895 /* Glob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365832B176E6600108895 /* Glob.swift */; };
+		67D365A02B176E6600108895 /* ShortHandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365842B176E6600108895 /* ShortHandRunner.swift */; };
+		67D365A12B176E6600108895 /* TaskPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365852B176E6600108895 /* TaskPipe.swift */; };
+		67D365A22B176E6600108895 /* ArgConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365862B176E6600108895 /* ArgConvertible.swift */; };
+		67D365A32B176E6600108895 /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365872B176E6600108895 /* Runner.swift */; };
+		67D365A42B176E6600108895 /* PromptReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365882B176E6600108895 /* PromptReader.swift */; };
+		67D365A52B176E6600108895 /* Choose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D365892B176E6600108895 /* Choose.swift */; };
+		67D365A62B176E6600108895 /* PromptSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D3658A2B176E6600108895 /* PromptSettings.swift */; };
+		67D365A72B176E6600108895 /* Args.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D3658B2B176E6600108895 /* Args.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/Agree.swift /* Agree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agree.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/AgreeSettings.swift /* AgreeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeSettings.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/ArgConvertible.swift /* ArgConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgConvertible.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/Args.swift /* Args.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Args.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/ArgsParser.swift /* ArgsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgsParser.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/Argument.swift /* Argument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argument.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/Ask.swift /* Ask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ask.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/AskSettings.swift /* AskSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskSettings.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/AskerValidator.swift /* AskerValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskerValidator.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/Choose.swift /* Choose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choose.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/ChooseSettings.swift /* ChooseSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSettings.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/Colorizer.swift /* Colorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorizer.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/CommandExecutor.swift /* CommandExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandExecutor.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/Env.swift /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/Glob.swift /* Glob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glob.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/ProcessInfo.swift /* ProcessInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessInfo.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/PromptPrinter.swift /* PromptPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptPrinter.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/PromptReader.swift /* PromptReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptReader.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/PromptSettings.swift /* PromptSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptSettings.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/RunResults.swift /* RunResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunResults.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/Runner.swift /* Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/RunnerSettings.swift /* RunnerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerSettings.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/ShortHandRunner.swift /* ShortHandRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortHandRunner.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/StringBackgroundColorizer.swift /* StringBackgroundColorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringBackgroundColorizer.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/StringForegroundColorizer.swift /* StringForegroundColorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringForegroundColorizer.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/StringStyle.swift /* StringStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringStyle.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/StringStyleColorizer.swift /* StringStyleColorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringStyleColorizer.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Source/TaskPipe.swift /* TaskPipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPipe.swift; sourceTree = "<group>"; };
+		67D3656E2B176E5300108895 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		67D365702B176E6600108895 /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Env.swift; path = Sources/Env.swift; sourceTree = "<group>"; };
+		67D365712B176E6600108895 /* Argument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Argument.swift; path = Sources/Argument.swift; sourceTree = "<group>"; };
+		67D365722B176E6600108895 /* StringBackgroundColorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringBackgroundColorizer.swift; path = Sources/StringBackgroundColorizer.swift; sourceTree = "<group>"; };
+		67D365732B176E6600108895 /* ArgsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgsParser.swift; path = Sources/ArgsParser.swift; sourceTree = "<group>"; };
+		67D365742B176E6600108895 /* StringStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringStyle.swift; path = Sources/StringStyle.swift; sourceTree = "<group>"; };
+		67D365752B176E6600108895 /* ChooseSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChooseSettings.swift; path = Sources/ChooseSettings.swift; sourceTree = "<group>"; };
+		67D365762B176E6600108895 /* AskSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AskSettings.swift; path = Sources/AskSettings.swift; sourceTree = "<group>"; };
+		67D365772B176E6600108895 /* ProcessInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProcessInfo.swift; path = Sources/ProcessInfo.swift; sourceTree = "<group>"; };
+		67D365782B176E6600108895 /* Ask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ask.swift; path = Sources/Ask.swift; sourceTree = "<group>"; };
+		67D365792B176E6600108895 /* PromptPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PromptPrinter.swift; path = Sources/PromptPrinter.swift; sourceTree = "<group>"; };
+		67D3657A2B176E6600108895 /* AgreeSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AgreeSettings.swift; path = Sources/AgreeSettings.swift; sourceTree = "<group>"; };
+		67D3657B2B176E6600108895 /* AskerValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AskerValidator.swift; path = Sources/AskerValidator.swift; sourceTree = "<group>"; };
+		67D3657C2B176E6600108895 /* StringStyleColorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringStyleColorizer.swift; path = Sources/StringStyleColorizer.swift; sourceTree = "<group>"; };
+		67D3657D2B176E6600108895 /* Colorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colorizer.swift; path = Sources/Colorizer.swift; sourceTree = "<group>"; };
+		67D3657E2B176E6600108895 /* Agree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Agree.swift; path = Sources/Agree.swift; sourceTree = "<group>"; };
+		67D3657F2B176E6600108895 /* CommandExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandExecutor.swift; path = Sources/CommandExecutor.swift; sourceTree = "<group>"; };
+		67D365802B176E6600108895 /* RunnerSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RunnerSettings.swift; path = Sources/RunnerSettings.swift; sourceTree = "<group>"; };
+		67D365812B176E6600108895 /* RunResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RunResults.swift; path = Sources/RunResults.swift; sourceTree = "<group>"; };
+		67D365822B176E6600108895 /* StringForegroundColorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringForegroundColorizer.swift; path = Sources/StringForegroundColorizer.swift; sourceTree = "<group>"; };
+		67D365832B176E6600108895 /* Glob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Glob.swift; path = Sources/Glob.swift; sourceTree = "<group>"; };
+		67D365842B176E6600108895 /* ShortHandRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShortHandRunner.swift; path = Sources/ShortHandRunner.swift; sourceTree = "<group>"; };
+		67D365852B176E6600108895 /* TaskPipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskPipe.swift; path = Sources/TaskPipe.swift; sourceTree = "<group>"; };
+		67D365862B176E6600108895 /* ArgConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgConvertible.swift; path = Sources/ArgConvertible.swift; sourceTree = "<group>"; };
+		67D365872B176E6600108895 /* Runner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Runner.swift; path = Sources/Runner.swift; sourceTree = "<group>"; };
+		67D365882B176E6600108895 /* PromptReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PromptReader.swift; path = Sources/PromptReader.swift; sourceTree = "<group>"; };
+		67D365892B176E6600108895 /* Choose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Choose.swift; path = Sources/Choose.swift; sourceTree = "<group>"; };
+		67D3658A2B176E6600108895 /* PromptSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PromptSettings.swift; path = Sources/PromptSettings.swift; sourceTree = "<group>"; };
+		67D3658B2B176E6600108895 /* Args.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Args.swift; path = Sources/Args.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Swiftline.xcodeproj/Configs/Project.xcconfig /* Swiftline.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Swiftline.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
 		"_____Product_Swiftline" /* Swiftline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swiftline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +86,7 @@
 		"___RootGroup_" = {
 			isa = PBXGroup;
 			children = (
-				__PBXFileRef_Package.swift /* Package.swift */,
+				67D3656E2B176E5300108895 /* Package.swift */,
 				"_____Configs_" /* Configs */,
 				"_____Sources_" /* Sources */,
 				"____Products_" /* Products */,
@@ -111,45 +112,36 @@
 		"_____Sources_" /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				"_______Group_Swiftline" /* Swiftline */,
+				67D3657E2B176E6600108895 /* Agree.swift */,
+				67D3657A2B176E6600108895 /* AgreeSettings.swift */,
+				67D365862B176E6600108895 /* ArgConvertible.swift */,
+				67D3658B2B176E6600108895 /* Args.swift */,
+				67D365732B176E6600108895 /* ArgsParser.swift */,
+				67D365712B176E6600108895 /* Argument.swift */,
+				67D365782B176E6600108895 /* Ask.swift */,
+				67D3657B2B176E6600108895 /* AskerValidator.swift */,
+				67D365762B176E6600108895 /* AskSettings.swift */,
+				67D365892B176E6600108895 /* Choose.swift */,
+				67D365752B176E6600108895 /* ChooseSettings.swift */,
+				67D3657D2B176E6600108895 /* Colorizer.swift */,
+				67D3657F2B176E6600108895 /* CommandExecutor.swift */,
+				67D365702B176E6600108895 /* Env.swift */,
+				67D365832B176E6600108895 /* Glob.swift */,
+				67D365772B176E6600108895 /* ProcessInfo.swift */,
+				67D365792B176E6600108895 /* PromptPrinter.swift */,
+				67D365882B176E6600108895 /* PromptReader.swift */,
+				67D3658A2B176E6600108895 /* PromptSettings.swift */,
+				67D365872B176E6600108895 /* Runner.swift */,
+				67D365802B176E6600108895 /* RunnerSettings.swift */,
+				67D365812B176E6600108895 /* RunResults.swift */,
+				67D365842B176E6600108895 /* ShortHandRunner.swift */,
+				67D365722B176E6600108895 /* StringBackgroundColorizer.swift */,
+				67D365822B176E6600108895 /* StringForegroundColorizer.swift */,
+				67D365742B176E6600108895 /* StringStyle.swift */,
+				67D3657C2B176E6600108895 /* StringStyleColorizer.swift */,
+				67D365852B176E6600108895 /* TaskPipe.swift */,
 			);
 			name = Sources;
-			sourceTree = "<group>";
-		};
-		"_______Group_Swiftline" /* Swiftline */ = {
-			isa = PBXGroup;
-			children = (
-				__PBXFileRef_Source/Agree.swift /* Agree.swift */,
-				__PBXFileRef_Source/AgreeSettings.swift /* AgreeSettings.swift */,
-				__PBXFileRef_Source/ArgConvertible.swift /* ArgConvertible.swift */,
-				__PBXFileRef_Source/Args.swift /* Args.swift */,
-				__PBXFileRef_Source/ArgsParser.swift /* ArgsParser.swift */,
-				__PBXFileRef_Source/Argument.swift /* Argument.swift */,
-				__PBXFileRef_Source/Ask.swift /* Ask.swift */,
-				__PBXFileRef_Source/AskerValidator.swift /* AskerValidator.swift */,
-				__PBXFileRef_Source/AskSettings.swift /* AskSettings.swift */,
-				__PBXFileRef_Source/Choose.swift /* Choose.swift */,
-				__PBXFileRef_Source/ChooseSettings.swift /* ChooseSettings.swift */,
-				__PBXFileRef_Source/Colorizer.swift /* Colorizer.swift */,
-				__PBXFileRef_Source/CommandExecutor.swift /* CommandExecutor.swift */,
-				__PBXFileRef_Source/Env.swift /* Env.swift */,
-				__PBXFileRef_Source/Glob.swift /* Glob.swift */,
-				__PBXFileRef_Source/ProcessInfo.swift /* ProcessInfo.swift */,
-				__PBXFileRef_Source/PromptPrinter.swift /* PromptPrinter.swift */,
-				__PBXFileRef_Source/PromptReader.swift /* PromptReader.swift */,
-				__PBXFileRef_Source/PromptSettings.swift /* PromptSettings.swift */,
-				__PBXFileRef_Source/Runner.swift /* Runner.swift */,
-				__PBXFileRef_Source/RunnerSettings.swift /* RunnerSettings.swift */,
-				__PBXFileRef_Source/RunResults.swift /* RunResults.swift */,
-				__PBXFileRef_Source/ShortHandRunner.swift /* ShortHandRunner.swift */,
-				__PBXFileRef_Source/StringBackgroundColorizer.swift /* StringBackgroundColorizer.swift */,
-				__PBXFileRef_Source/StringForegroundColorizer.swift /* StringForegroundColorizer.swift */,
-				__PBXFileRef_Source/StringStyle.swift /* StringStyle.swift */,
-				__PBXFileRef_Source/StringStyleColorizer.swift /* StringStyleColorizer.swift */,
-				__PBXFileRef_Source/TaskPipe.swift /* TaskPipe.swift */,
-			);
-			name = Swiftline;
-			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,34 +199,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				__src_cc_ref_Source/Agree.swift /* Agree.swift in Sources */,
-				__src_cc_ref_Source/AgreeSettings.swift /* AgreeSettings.swift in Sources */,
-				__src_cc_ref_Source/ArgConvertible.swift /* ArgConvertible.swift in Sources */,
-				__src_cc_ref_Source/Args.swift /* Args.swift in Sources */,
-				__src_cc_ref_Source/ArgsParser.swift /* ArgsParser.swift in Sources */,
-				__src_cc_ref_Source/Argument.swift /* Argument.swift in Sources */,
-				__src_cc_ref_Source/Ask.swift /* Ask.swift in Sources */,
-				__src_cc_ref_Source/AskerValidator.swift /* AskerValidator.swift in Sources */,
-				__src_cc_ref_Source/AskSettings.swift /* AskSettings.swift in Sources */,
-				__src_cc_ref_Source/Choose.swift /* Choose.swift in Sources */,
-				__src_cc_ref_Source/ChooseSettings.swift /* ChooseSettings.swift in Sources */,
-				__src_cc_ref_Source/Colorizer.swift /* Colorizer.swift in Sources */,
-				__src_cc_ref_Source/CommandExecutor.swift /* CommandExecutor.swift in Sources */,
-				__src_cc_ref_Source/Env.swift /* Env.swift in Sources */,
-				__src_cc_ref_Source/Glob.swift /* Glob.swift in Sources */,
-				__src_cc_ref_Source/ProcessInfo.swift /* ProcessInfo.swift in Sources */,
-				__src_cc_ref_Source/PromptPrinter.swift /* PromptPrinter.swift in Sources */,
-				__src_cc_ref_Source/PromptReader.swift /* PromptReader.swift in Sources */,
-				__src_cc_ref_Source/PromptSettings.swift /* PromptSettings.swift in Sources */,
-				__src_cc_ref_Source/Runner.swift /* Runner.swift in Sources */,
-				__src_cc_ref_Source/RunnerSettings.swift /* RunnerSettings.swift in Sources */,
-				__src_cc_ref_Source/RunResults.swift /* RunResults.swift in Sources */,
-				__src_cc_ref_Source/ShortHandRunner.swift /* ShortHandRunner.swift in Sources */,
-				__src_cc_ref_Source/StringBackgroundColorizer.swift /* StringBackgroundColorizer.swift in Sources */,
-				__src_cc_ref_Source/StringForegroundColorizer.swift /* StringForegroundColorizer.swift in Sources */,
-				__src_cc_ref_Source/StringStyle.swift /* StringStyle.swift in Sources */,
-				__src_cc_ref_Source/StringStyleColorizer.swift /* StringStyleColorizer.swift in Sources */,
-				__src_cc_ref_Source/TaskPipe.swift /* TaskPipe.swift in Sources */,
+				67D3659D2B176E6600108895 /* RunResults.swift in Sources */,
+				67D3656F2B176E5300108895 /* Package.swift in Sources */,
+				67D3659B2B176E6600108895 /* CommandExecutor.swift in Sources */,
+				67D3659C2B176E6600108895 /* RunnerSettings.swift in Sources */,
+				67D365912B176E6600108895 /* ChooseSettings.swift in Sources */,
+				67D3658D2B176E6600108895 /* Argument.swift in Sources */,
+				67D365902B176E6600108895 /* StringStyle.swift in Sources */,
+				67D365A02B176E6600108895 /* ShortHandRunner.swift in Sources */,
+				67D365A12B176E6600108895 /* TaskPipe.swift in Sources */,
+				67D3659F2B176E6600108895 /* Glob.swift in Sources */,
+				67D365932B176E6600108895 /* ProcessInfo.swift in Sources */,
+				67D365922B176E6600108895 /* AskSettings.swift in Sources */,
+				67D365972B176E6600108895 /* AskerValidator.swift in Sources */,
+				67D3658E2B176E6600108895 /* StringBackgroundColorizer.swift in Sources */,
+				67D365A62B176E6600108895 /* PromptSettings.swift in Sources */,
+				67D365992B176E6600108895 /* Colorizer.swift in Sources */,
+				67D365942B176E6600108895 /* Ask.swift in Sources */,
+				67D365A52B176E6600108895 /* Choose.swift in Sources */,
+				67D3659A2B176E6600108895 /* Agree.swift in Sources */,
+				67D365A32B176E6600108895 /* Runner.swift in Sources */,
+				67D3658F2B176E6600108895 /* ArgsParser.swift in Sources */,
+				67D365982B176E6600108895 /* StringStyleColorizer.swift in Sources */,
+				67D365A42B176E6600108895 /* PromptReader.swift in Sources */,
+				67D3658C2B176E6600108895 /* Env.swift in Sources */,
+				67D3659E2B176E6600108895 /* StringForegroundColorizer.swift in Sources */,
+				67D365A72B176E6600108895 /* Args.swift in Sources */,
+				67D365952B176E6600108895 /* PromptPrinter.swift in Sources */,
+				67D365A22B176E6600108895 /* ArgConvertible.swift in Sources */,
+				67D365962B176E6600108895 /* AgreeSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = __PBXFileRef_Swiftline.xcodeproj/Configs/Project.xcconfig /* Swiftline.xcodeproj/Configs/Project.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -287,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = __PBXFileRef_Swiftline.xcodeproj/Configs/Project.xcconfig /* Swiftline.xcodeproj/Configs/Project.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
